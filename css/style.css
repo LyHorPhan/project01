@@ -1,0 +1,178 @@
+    #width {
+      width: 550px;
+      border: 1px solid black;
+    }
+
+    .gx-4{
+        --bs-gutter-x: 2.3rem;
+    }
+
+    .profile {
+      width: 20px;
+      height: 23.5px;
+      display: flex;
+      justify-content: center;
+      /* border: 1px solid rebeccapurple; */
+    }
+
+    .profile img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+    }
+
+    .icon i:hover{
+      color: dodgerblue;
+    }
+
+    .item {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-img{
+      width: 100%;
+      height: 350px;
+    }
+
+    .card-img{
+        object-fit: cover;
+    }
+
+    .carmera{
+      width: 30px;
+      height: 30px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .carmera i{
+      font-size: 20px;
+    }
+
+    .profile-under-cover{
+        width: 45px;
+        height: 45px;
+    }
+
+    .profile-under-cover img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+
+    .line{
+        height: 2px;
+        background-color: black;
+    }
+
+    .profile-2{
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile-2 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+ 
+    .Create-post{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+
+    .icon-photo{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-photo i{
+        font-size: 30px;
+    }
+
+    .text-admin{
+       color: blue; 
+       background-color: #ddd; 
+       padding: 1px 4px; 
+       border-radius: 5px;
+    }
+
+    .write-conment{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+
+    @media (max-width:600px) {
+
+      #width {
+        width: 100%;
+      }
+
+      .profile{
+        margin: auto;
+      }
+
+      .col-8{
+        width: 100%;
+      }
+
+      .col-4{
+        display: none;
+      }
+
+      #search-responsive{
+        margin: auto;
+      }
+
+      #responsive-invite{
+        display: flex;
+        gap: 10px;
+      }
+
+      .col-lg-10{
+        width: 290px;
+        margin: 0 20px;
+      }
+
+      .col-lg-4{
+        width: 60%;
+      }
+
+      .icon-more-next-to-profile{
+        width: 15%;
+      }
+
+      .col-lg-1{
+        width:15%;
+      }
+
+      .col-lg-11{
+        width: 85%;
+      }
+
+
+    }
+
